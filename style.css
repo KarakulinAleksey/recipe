@@ -1,15 +1,34 @@
 @font-face {
-    font-family: Ubuntu;
     src: url(./fonts/Ubuntu-Light.woff2);
-    font-weight: normal;
-
     font-family: Ubuntu;
-    src: url(./fonts/Ubuntu-Medium.woff2);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./fonts/Ubuntu-Medium.woff2); 
     font-weight: 600;
+}
 
+@font-face {
     font-family: Ubuntu;
-    src: url(./fonts/Ubuntu-Bold.woff2);
-    font-weight: 900;
+    src: url(./fonts/Ubuntu-Bold.woff2); 
+    font-weight: 900; 
+}
+
+@font-face {
+    font-family: BadScript;
+    src: url(./fonts/BadScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comforta;
+    src: url(./fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
 }
 
 .page {
@@ -26,17 +45,19 @@
     flex-direction: column;
     align-items: center;
     background-color: #4d2e28;
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    /* font-family: Ubuntu, Arial, Helvetica, sans-serif; */
+    border-radius: 10px;
 }
 
 .title {
     margin: 0;
     margin-top: 40px;
     margin-bottom: 80px;
-    font-size: 34px;
-    font-weight: 900;
-    line-height: 30px;
+    font-size: 56px;
+    line-height: 100px;
     color: #dad9d9;
+    font-family: Pacifico;
+    text-decoration: underline;
 }
 
 .cards {
@@ -78,6 +99,7 @@
 }
 
 .card__title {
+    font-family: BadScript;
     color: #dad9d9;
     text-align: center;
     margin: 0;
@@ -89,9 +111,17 @@
     margin-top: 60px;
     margin-bottom: 40px;
     width: 80%;
+    font-family: Ubuntu;
+    font-weight: 100;
     text-align: center;
+    color:#dad9d9;
+    
 }
 
-.font-weigth {
-    font-weight: bold;
+.font-weigth_bold {
+    font-weight: 600;
+}
+
+.font-color_dark {
+    color: #84614c;
 }
